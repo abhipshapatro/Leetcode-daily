@@ -3,11 +3,11 @@ class Solution {
         if (x < 2)
             return x;
         int left = 2, right = x / 2;
-        if (left <= right) {
+        while (left <= right) {
             int mid = left + (right - left) / 2;
             long midsq = (long) mid * mid;
             if (midsq == x)
-                return x;
+                return mid;
             else if (midsq < x)
                 left = mid + 1;
             else
