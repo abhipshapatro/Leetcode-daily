@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int arithmeticTriplets(int[] nums, int diff) {
         HashSet<Integer> set = new HashSet <>();
