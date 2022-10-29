@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+ public class Solution {
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
         ArrayList<Integer> ans = new ArrayList<>();
         
