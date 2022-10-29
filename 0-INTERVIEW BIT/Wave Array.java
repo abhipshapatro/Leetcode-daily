@@ -1,5 +1,5 @@
 import java.util.*;
-public class Solution {
+class Solution {
     public int[] wave(int[] A) {
         Arrays.sort(A);
         for(int i = 0; i < A.length - 1; i+=2){
