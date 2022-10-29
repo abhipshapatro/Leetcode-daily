@@ -1,3 +1,4 @@
+import java.util.*;
 public class Solution {
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
         ArrayList<Integer> ans = new ArrayList<>();
